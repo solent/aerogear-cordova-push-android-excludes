@@ -1,0 +1,7 @@
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="aerogear-cordova-push-android-excludes" version="2.0.4">
+  <name>aerogear-cordova-push-android-excludes</name>
+  <keywords>cordova,aerogear,push,excludes</keywords>
+  <platform name="android">
+    <framework src="src/android/excludes.gradle" type="gradleReference" custom="true"/>
+  </platform>
+</plugin>
